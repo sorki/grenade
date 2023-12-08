@@ -13,7 +13,7 @@ import           Control.Monad.Random hiding (fromList)
 
 import           Data.Proxy
 import           Data.Serialize
-import           Data.Singletons.TypeLits
+import           GHC.TypeLits.Singletons
 
 import qualified Numeric.LinearAlgebra as LA
 import           Numeric.LinearAlgebra.Static

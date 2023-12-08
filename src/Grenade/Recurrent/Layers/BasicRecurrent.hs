@@ -16,7 +16,7 @@ module Grenade.Recurrent.Layers.BasicRecurrent (
 
 import           Control.Monad.Random ( MonadRandom, getRandom )
 
-import           Data.Singletons.TypeLits
+import           GHC.TypeLits.Singletons
 
 #if MIN_VERSION_base(4,9,0)
 import           Data.Kind (Type)

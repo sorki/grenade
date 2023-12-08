@@ -21,7 +21,8 @@ import           Control.Monad.Random ( MonadRandom, getRandom )
 -- import           Data.List ( foldl1' )
 import           Data.Proxy
 import           Data.Serialize
-import           Data.Singletons.TypeLits
+import           GHC.TypeLits (Nat)
+import           GHC.TypeLits.Singletons
 
 #if MIN_VERSION_base(4,9,0)
 import           Data.Kind (Type)

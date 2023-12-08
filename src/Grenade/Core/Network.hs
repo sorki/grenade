@@ -34,7 +34,7 @@ module Grenade.Core.Network (
 import           Control.Monad.Random ( MonadRandom )
 
 import           Data.Singletons
-import           Data.Singletons.Prelude
+import           Prelude.Singletons
 import           Data.Serialize
 
 #if MIN_VERSION_base(4,9,0)

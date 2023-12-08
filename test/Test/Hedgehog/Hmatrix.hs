@@ -8,7 +8,7 @@ module Test.Hedgehog.Hmatrix where
 
 import           Grenade
 import           Data.Singletons
-import           Data.Singletons.TypeLits
+import           GHC.TypeLits.Singletons
 
 import           Hedgehog (Gen)
 import qualified Hedgehog.Gen as Gen

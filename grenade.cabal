@@ -48,6 +48,7 @@ library
                      -- Versions of singletons are *tightly* coupled with the
                      -- GHC version so its fine to drop version bounds.
                      , singletons
+                     , singletons-base
                      , vector                          >= 0.11        && < 0.13
 
   ghc-options:
@@ -164,6 +165,7 @@ test-suite test
                      , hmatrix
                      , mtl
                      , singletons
+                     , singletons-base
                      , text                            == 1.2.*
                      , typelits-witnesses              < 0.4
                      , transformers

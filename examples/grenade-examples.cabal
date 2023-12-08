@@ -103,6 +103,7 @@ executable             shakespeare
                      , transformers
                      , semigroups
                      , singletons
+                     , singletons-base
                      , vector
                      , MonadRandom
                      , containers

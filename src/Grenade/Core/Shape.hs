@@ -34,13 +34,14 @@ module Grenade.Core.Shape (
 import           Control.DeepSeq (NFData (..))
 import           Control.Monad.Random ( MonadRandom, getRandom )
 
+import GHC.TypeLits.Singletons
+
 #if MIN_VERSION_base(4,13,0)
 import           Data.Kind (Type)
 #endif
 import           Data.Proxy
 import           Data.Serialize
 import           Data.Singletons
-import           Data.Singletons.TypeLits
 import           Data.Vector.Storable ( Vector )
 import qualified Data.Vector.Storable as V
 

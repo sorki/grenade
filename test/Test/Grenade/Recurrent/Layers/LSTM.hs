@@ -16,7 +16,7 @@ import           Hedgehog.Internal.Show
 import           Hedgehog.Internal.Property ( failWith, Diff (..) )
 
 import           Data.Foldable ( toList )
-import           Data.Singletons.TypeLits
+import           GHC.TypeLits.Singletons
 
 import           Grenade
 import           Grenade.Recurrent

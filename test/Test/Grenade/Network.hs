@@ -17,8 +17,8 @@ import           Data.Constraint
 import qualified Data.Vector.Storable as VS
 import qualified Data.Vector.Storable.Mutable as VS ( write )
 import           Data.Singletons
-import           Data.Singletons.Prelude.List
-import           Data.Singletons.TypeLits
+import           Data.List.Singletons
+import           GHC.TypeLits.Singletons
 
 import           Hedgehog
 import qualified Hedgehog.Gen as Gen

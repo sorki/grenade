@@ -29,7 +29,7 @@ import           Data.Proxy ( Proxy (..) )
 import qualified Data.ByteString as B
 import           Data.Serialize
 
-import           Data.Singletons.Prelude
+import           Prelude.Singletons
 import           GHC.TypeLits
 
 import           Numeric.LinearAlgebra.Static ( konst )

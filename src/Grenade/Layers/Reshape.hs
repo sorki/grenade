@@ -17,7 +17,7 @@ module Grenade.Layers.Reshape (
 
 import           Data.Serialize
 
-import           Data.Singletons.TypeLits
+import           GHC.TypeLits.Singletons
 import           GHC.TypeLits
 
 import           Numeric.LinearAlgebra.Static

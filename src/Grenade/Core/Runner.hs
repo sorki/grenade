@@ -13,7 +13,7 @@ module Grenade.Core.Runner (
   , runNet
   ) where
 
-import           Data.Singletons.Prelude
+import           Prelude.Singletons
 
 import           Grenade.Core.LearningParameters
 import           Grenade.Core.Network

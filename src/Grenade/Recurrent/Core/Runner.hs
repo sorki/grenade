@@ -17,7 +17,7 @@ module Grenade.Recurrent.Core.Runner (
   ) where
 
 import           Data.List ( foldl' )
-import           Data.Singletons.Prelude
+import           Prelude.Singletons
 import           Grenade.Core
 
 import           Grenade.Recurrent.Core.Network

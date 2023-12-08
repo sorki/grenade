@@ -30,7 +30,7 @@ module Grenade.Recurrent.Core.Network (
 
 import           Control.Monad.Random ( MonadRandom )
 import           Data.Singletons ( SingI )
-import           Data.Singletons.Prelude ( Head, Last )
+import           Prelude.Singletons ( Head, Last )
 import           Data.Serialize
 
 #if MIN_VERSION_base(4,9,0)
